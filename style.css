@@ -9,18 +9,17 @@ body {
 
 .header {
     padding: 80px;
+    width: 100%;
     text-align: center;
     background: #808080;
     color: white;
 }
 
-.header h1 {
-    font-size: 40px;
-}
 
 .navbar {
     overflow: hidden;
     background-color: #333;
+
 }
 
 .navbar a {
@@ -72,6 +71,7 @@ body {
 .footer {
     margin: 0;
     padding: 20px;
+    width: 100%;
     text-align: center;
     background: #ddd;
 }
@@ -83,6 +83,7 @@ body {
 }
 
 .dropdown .dropbtn {
+    width: 100%;
     font-size: 16px;
     border: none;
     outline: none;
