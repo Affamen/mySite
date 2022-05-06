@@ -76,14 +76,13 @@ table, th, td, tr {
     width: 100%;
     border: 2px solid #464646;
     text-align:center;
-    color: #464646;
+    color: #ffffff;
 }
 
 
 
 tr:hover {
-    background-color: #00a6ff;
-    color: white;
+    background-color: #0d6efd;;
 }
 
 
@@ -169,7 +168,7 @@ tr:hover {
 .link a:link, .link a:visited {
     background-color: rgba(0,0,0,0);
     color: black;
-    border: 2px solid #00a6ff;
+    border: 2px solid #0d6efd;;
     border-radius: 5px;
     padding: 10px 20px;
     text-align: center;
@@ -178,7 +177,7 @@ tr:hover {
 }
 
 .link a:hover, .link a:active {
-    background-color: #00a6ff;
+    background-color: #0d6efd;
     color: white;
 }
 
