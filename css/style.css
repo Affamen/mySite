@@ -16,7 +16,7 @@ body {
 }
 
 
-.navbar {
+/*.navbar {
     overflow: hidden;
     background-color: #333;
 
@@ -39,6 +39,8 @@ body {
     background-color: #ddd;
     color: #333;
 }
+
+ */
 
 .row {
 
@@ -86,7 +88,7 @@ tr:hover {
 
 
 
-.dropdown {
+/*.dropdown {
     float: left;
     overflow: hidden;
 }
@@ -125,7 +127,7 @@ tr:hover {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
+*/
 .column {
     float: left;
     width: 100%;
@@ -188,7 +190,7 @@ tr:hover {
         float: none;
         width: 100%;
     }
-    .dropdown .dropbtn {
+    /*.dropdown .dropbtn {
         flex-direction: column;
-    }
+    }*/
 }
