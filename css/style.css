@@ -72,15 +72,17 @@ body {
 
 table, th, td, tr {
     width: 100%;
-    border:1px solid #464646;
-    border-radius: 5px;
+    border: 2px solid #464646;
     text-align:center;
     color: #464646;
 }
 
 
 
-tr:hover {background-color: #00a6ff;}
+tr:hover {
+    background-color: #00a6ff;
+    color: white;
+}
 
 
 
@@ -185,5 +187,8 @@ tr:hover {background-color: #00a6ff;}
     .navbar a {
         float: none;
         width: 100%;
+    }
+    .dropdown .dropbtn {
+        flex-direction: column;
     }
 }
